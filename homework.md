@@ -19,3 +19,12 @@ Question 3. How many rows are there for the Yellow Taxi data for all CSV files i
 
 Answer 3.
 
+SELECT COUNT(*) AS total_rows
+FROM `zoomcamp.yellow_tripdata`
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+
+<img width="250" height="166" alt="image" src="https://github.com/user-attachments/assets/630ed532-2b69-486d-b5cb-3c4019998b92" />
+
+
+
+
