@@ -19,9 +19,9 @@
 
 ## Answer 3.
 
-SELECT COUNT(*) AS total_rows
+`SELECT COUNT(*) AS total_rows
 FROM `zoomcamp.yellow_tripdata`
-WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;`
 
 <img width="250" height="166" alt="image" src="https://github.com/user-attachments/assets/630ed532-2b69-486d-b5cb-3c4019998b92" />
 
@@ -30,9 +30,9 @@ WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
 
 ## Answer 4.
 
-SELECT COUNT(*) AS total_rows
+`SELECT COUNT(*) AS total_rows
 FROM `zoomcamp.green_tripdata`
-WHERE EXTRACT(YEAR FROM lpep_pickup_datetime) = 2020;
+WHERE EXTRACT(YEAR FROM lpep_pickup_datetime) = 2020;`
 
 <img width="252" height="142" alt="image" src="https://github.com/user-attachments/assets/2a7d2222-28d0-4f1b-a0a3-81864ee5eb6c" />
 
@@ -40,8 +40,8 @@ WHERE EXTRACT(YEAR FROM lpep_pickup_datetime) = 2020;
 
 ## Answer 5. 
 
-SELECT COUNT(*) AS total_rows
-FROM `zoomcamp.yellow_tripdata_2021_03`;
+`SELECT COUNT(*) AS total_rows
+FROM `zoomcamp.yellow_tripdata_2021_03`;`
 
 <img width="238" height="157" alt="image" src="https://github.com/user-attachments/assets/c25f05ba-6814-4aef-b2cd-0b67eef37aa3" />
 
